@@ -111,10 +111,9 @@ section{
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;      /* crops instead of stretching */
-  border-radius: 50%;     /* makes it a circle; remove for a square */
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
   display: block;
-  margin: 0 auto 20px;    /* centers it */
+  margin: 0 auto 20px;
 }
