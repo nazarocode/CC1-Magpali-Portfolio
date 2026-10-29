@@ -110,10 +110,79 @@ section{
     background-color: #111;
 }
 
-.profile-img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 20px;
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span{
+    color: #c74ffb;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #c74ffb;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.social-icons a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #c74ffb;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-right: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.social-icons a:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.3)translateY(-5px);
+    background-color: #c74ffb;
+    box-shadow: 0 0 25px #c74ffb;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #c74ffb;
+    letter-spacing:0.3rem;
+    font-weight: 600;
+    border: 2px solid #c74ffb;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale3d(1.03)
+    backgriound-color: #c74ffb;
+    color: black;
+    box-shadow:0 0 25px #c74ffb;
 }
